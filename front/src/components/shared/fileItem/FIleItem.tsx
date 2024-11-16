@@ -45,7 +45,7 @@ export const FileItem = ( { isBlured, isDeletable, file, fileSize, deleteFile }:
     };
 
     return (
-        <div className={`p-[18px] w-[95%] sm:w-[100%] rounded-[8px] bg-[#F3F3F3] flex items-center justify-between  flex-col box-border ${ isBlured && 'blur-sm' }`}>
+        <div className={`p-[18px] w-[95%] sm:w-[100%] rounded-[8px] bg-[#F3F3F3] flex items-center justify-between  flex-col box-border ${ isBlured && 'blur-sm pointer-events-none' }`}>
 
             <div className='w-full flex justify-between'>
 
